@@ -1,5 +1,5 @@
 build
 amm-dapp-env
-.pytest_chache
-requirements.txt
-tests/__pytest_chache__
+.pytest_cache
+tests/__pycache__
+.gitignore
