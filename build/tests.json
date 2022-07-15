@@ -1,0 +1,29 @@
+{
+  "contracts": {
+    "AMM": "d8b6e9396221a791b3a90f2ebcd80afc096ff0db",
+    "openzeppelin/openzeppelin-contracts@4.7.0/SafeMath": "1ce946f6a4eaa185320328620ccf999b9e86db7c"
+  },
+  "tests": {
+    "tests/test_amm_faucet.py": {
+      "coverage": false,
+      "isolated": [
+        "AMM",
+        "openzeppelin/openzeppelin-contracts@4.7.0/SafeMath"
+      ],
+      "results": ".",
+      "sha1": "dc79ff90d583ae76654c41a5f37c836c111a1591",
+      "txhash": []
+    },
+    "tests/test_amm_init.py": {
+      "coverage": false,
+      "isolated": [
+        "AMM",
+        "openzeppelin/openzeppelin-contracts@4.7.0/SafeMath"
+      ],
+      "results": "..",
+      "sha1": "1c00bbd39959735790996fb966f3a1877e541541",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
